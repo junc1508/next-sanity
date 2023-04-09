@@ -1,6 +1,7 @@
 import { Project } from "@/types/Project";
 import { createClient, groq } from "next-sanity";
 import clientConfig from './config/client-config';
+import { Page } from "@/types/Page";
 
 //use query language grok to grab projects for homepage at app/(site)/page in sanity studio
 export async function getProjects(): Promise<Project[]> {
