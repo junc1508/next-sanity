@@ -1,6 +1,6 @@
 //config for creating sanity studio in app/(studio)/admin/[[..index]]/page
 
-import { defineConfig } from "sanity";
+import { defineConfig } from "sanity/lib/exports";
 import { deskTool } from "sanity/desk";
 import schemas from "./sanity/schemas";
 // config for sanity studio
